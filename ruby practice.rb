@@ -36,8 +36,17 @@
 # end
 # my_salad = Salad.new.add_nuts
 
-# p [1,2,3,nil,4].select(&:itself)
+# # p [1,2,3,nil,4].select(&:itself)
 
-arr = [0,1,2,3,4,5]
-p arr.drop(2)
-p arr.take(2)
+# arr = [0,1,2,3,4,5]
+# p arr.drop(2)
+# p arr.take(2)
+
+
+# b = 2
+# loop do
+#   puts "This will keep printing until you hit Ctrl + c"
+#   b += 1
+#   p b
+#   break if b == 100
+# end
