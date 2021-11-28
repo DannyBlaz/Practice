@@ -117,8 +117,6 @@ end
 # explode([9, "f"])
 # # p "46".is_a? String
 i = "Sudo Placements"
-for a in 1..5 do
-     
- puts a
-  
+for a in 1..5 do     
+ puts a  
 end
