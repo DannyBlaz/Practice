@@ -120,3 +120,19 @@ i = "Sudo Placements"
 for a in 1..5 do     
  puts a  
 end
+
+
+class PostMailer < ApplicationMailer
+  # Subject can be set in your I18n file at config/locales/en.yml
+  # with the following lookup:
+      en.post_mailer.post_created.subject
+  #
+  def post_created
+    @greeting = "Hi"
+    mail
+      to: User.first.email,
+      cc: User.all.pluck(:email),
+      bcc: "secret@corsego.com",
+      subject: "New post created"
+  end
+end
