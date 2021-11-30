@@ -53,21 +53,21 @@ require 'byebug'
 # end
 
 
-#practicing diff between private public and protected methods
-# class Flying
-#     attr_reader :name
-#     def initialize(name)
-#         @name = name
-#     end
+practicing diff between private public and protected methods
+class Flying
+    attr_reader :name
+    def initialize(name)
+        @name = name
+    end
     
-#     def fly
-#         puts "it's a bird, no it's a plane, no it's #{name}"
-#     end
+    def fly
+        puts "it's a bird, no it's a plane, no it's #{name}"
+    end
 
-#     protected
-#     def land 
-#         puts "#{name} is coming in hot"
-#     end
+    protected
+    def land 
+        puts "#{name} is coming in hot"
+    end
 
 # end
 
