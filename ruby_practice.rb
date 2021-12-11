@@ -167,3 +167,6 @@ DNA_strand("AAAA")
 DNA_strand("ATTGC")
 DNA_strand("GTAC") 
 DNA_strand("AAAA")
+
+def do_something(jidnfi)
+end
