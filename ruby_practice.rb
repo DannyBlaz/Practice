@@ -166,4 +166,4 @@ end
 DNA_strand("AAAA")
 DNA_strand("ATTGC")
 DNA_strand("GTAC") 
-DNA_strand("AAAA")
+# DNA_strand("AAAA")
